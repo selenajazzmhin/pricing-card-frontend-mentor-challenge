@@ -1,0 +1,124 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+}
+
+h2, h4, p {
+  margin: 0px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.main {
+  width: 600px;
+  height: 400px;
+  box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75); 
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: 'Karla', sans-serif;
+}
+
+#top {
+  width: 100%;
+  height: 40%;
+  padding: 20px;
+}
+
+#top h2 {
+  color: hsl(179, 62%, 43%);
+  font-family: 'Karla', sans-serif;
+  margin-top: 0px;
+  padding-bottom: 10px;
+  font-weight: 700px;
+}
+
+#top h4 {
+  color: hsl(71, 73%, 54%);
+  margin-top: 0px;
+  padding-bottom: 10px;
+}
+
+#top p {
+  color: hsl(218, 22%, 67%); 
+  margin-top: 0px;
+}
+
+#botsection{
+  width: 100%;
+  height: 60%;
+}
+
+#botleft {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  height: 100%;
+  background-color: #2BB3B1;
+  padding: 20px;
+  color: white;
+}
+
+#botleft h4 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#botleft p {
+  padding-top: 10px;
+}
+
+#botleft .price {
+  font-size: 30px;
+  font-weight: 700;
+  display: inline-block;
+}
+
+#botleft .date {
+  font-size: 15px;
+  display: inline-block; 
+  position: relative;
+  top: -4px;
+}
+
+#botleft .sign-up {
+  position: absolute;
+  width: 28%;
+  height: 8%;
+  top: 58%;
+  background-color: #BFDF32;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.25);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #788C1F;
+  transform: scale(1.02);
+}
+
+#botright {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  height: 100%;
+  background-color: #4ABEBD;
+  padding: 20px;
+  color: white;
+}
+
+#botright h4 {
+  padding-top: 20px;
+}
+
+#botright p {
+  padding-top: 20px;
+  opacity: 0.8; 
+}
+
